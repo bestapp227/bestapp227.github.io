@@ -212,9 +212,9 @@ var ParticlePool = (function() {
       particles.add(canvas.width / 2 + pos.x, canvas.height / 2 - pos.y, dir.x, -dir.y);
     }
     
-    context.font = 'bold 88px Arial';
-context.fillStyle = 'white';
-context.fillText("Hello World!", 10, 80);
+    context.font = 'bold 40px Arial';
+context.fillStyle = 'green';
+context.fillText("Hello World!", canvas.width / 2, canvas.height / 2);
     particles.update(deltaTime);
     particles.draw(context, image);
   }
